@@ -20,3 +20,5 @@ $ for file in /tmp/@vocaloid_fm.json; do; tail -n+600000 $file | head -n100000 |
 snscrape --jsonl twitter-user vocaloid_fm > vocaloid_fm.json  887.91s user 22.16s system 6% cpu 3:39:15.37 total
 ```
 3 entire hours yippee
+
+raw data: https://github.com/szc126/metadata-nnd-vocalo-twitter/releases/tag/v1
